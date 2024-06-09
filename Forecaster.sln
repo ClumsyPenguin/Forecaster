@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeCaster.API", "ForeCaster.API\ForeCaster.API.csproj", "{6FDC22C4-3A14-41DD-863A-AAA77CAA97B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7A4018A3-0E96-4304-8D6A-003B7D2CB9BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeCaster.Web", "ForeCaster.Web\ForeCaster.Web.csproj", "{BF79579B-CF4A-4522-AE26-6797A095FBF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForeCaster.Shared", "ForeCaster.Shared\ForeCaster.Shared.csproj", "{C82F67D5-2BD0-4B01-A5FE-5F3A1EBAF729}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FDC22C4-3A14-41DD-863A-AAA77CAA97B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDC22C4-3A14-41DD-863A-AAA77CAA97B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDC22C4-3A14-41DD-863A-AAA77CAA97B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDC22C4-3A14-41DD-863A-AAA77CAA97B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF79579B-CF4A-4522-AE26-6797A095FBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF79579B-CF4A-4522-AE26-6797A095FBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF79579B-CF4A-4522-AE26-6797A095FBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF79579B-CF4A-4522-AE26-6797A095FBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C82F67D5-2BD0-4B01-A5FE-5F3A1EBAF729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82F67D5-2BD0-4B01-A5FE-5F3A1EBAF729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82F67D5-2BD0-4B01-A5FE-5F3A1EBAF729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82F67D5-2BD0-4B01-A5FE-5F3A1EBAF729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

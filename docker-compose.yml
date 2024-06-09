@@ -1,0 +1,24 @@
+﻿services:
+  forecaster.web:
+    image: forecaster.web
+    build:
+      context: .
+      dockerfile: ForeCaster.Web/Dockerfile
+
+  forecaster.web-1:
+    image: forecaster.web-1
+    build:
+      context: .
+      dockerfile: ForeCaster.Web/ForeCaster.Web/Dockerfile
+
+  forecaster.web.client:
+    image: forecaster.web.client
+    build:
+      context: .
+      dockerfile: ForeCaster.Web/ForeCaster.Web.Client/Dockerfile
+
+  forecaster.web-2:
+    image: forecaster.web-2
+    build:
+      context: .
+      dockerfile: ForeCaster.Web/Dockerfile

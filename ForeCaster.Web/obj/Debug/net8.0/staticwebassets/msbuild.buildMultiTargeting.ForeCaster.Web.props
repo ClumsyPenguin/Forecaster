@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/ForeCaster.Web.props" />
+</Project>
