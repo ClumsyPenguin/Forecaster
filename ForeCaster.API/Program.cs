@@ -1,3 +1,4 @@
+using ForeCaster.API;
 using ForeCaster.API.Adapters.OpenMeteo;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpCacheHeaders();
+builder.Services.AddCache(builder.Configuration, []);
 
 builder.Services.Configure<RouteOptions>(options =>
 {
@@ -25,6 +28,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseResponseCaching();
+app.UseHttpCacheHeaders();
 app.MapControllers();
 app.Run();
